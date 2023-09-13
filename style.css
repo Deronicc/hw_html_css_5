@@ -1,0 +1,121 @@
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(./font/Gilroy-Bold.woff2);
+}
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url(./font/Gilroy-Medium.woff2);
+}
+@font-face {
+  font-family: Gilroy-Semibold;
+  src: url(./font/Gilroy-Semibold.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  color: #000;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; /* первое значение 0 обозначает что сверху и снижу не нужен отступ, второе значение auto отвечает за отступ слева и справа */
+}
+
+header {
+  padding: 40px 0;
+  margin-bottom: 43px;
+}
+
+.navigation.container {
+  display: flex;
+  gap: 533px;
+}
+
+.logo_img {
+}
+
+.menu {
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation a {
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+main {
+  margin-bottom: 259px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  gap: 41px;
+}
+
+.main-content__wrapper {
+}
+
+.title {
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 17px;
+  width: 522px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content__wrapper p {
+  color: #888;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 37px;
+  width: 466px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content__btn-list {
+  display: flex;
+  gap: 37px;
+}
+.main-content__btn {
+  width: 140px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  color: #fff;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  line-height: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+}
+.logos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
