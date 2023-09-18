@@ -60,13 +60,14 @@ header {
 }
 
 main {
-  margin-bottom: 259px;
+  /* margin-bottom: 259px; */
 }
 
 .main-content {
   display: flex;
   justify-content: center;
   gap: 41px;
+  margin-bottom: 259px;
 }
 
 .main-content__wrapper {
@@ -118,4 +119,127 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
+}
+
+.cards_list1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 61px;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  text-align: left;
+  /* gap: 25px; */
+  padding: 40px 30px 25px 30px;
+}
+
+.card_shadow {
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.card h4 {
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  margin-top: 25px;
+  margin-bottom: 17px;
+}
+
+.card p {
+  color: #666;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  width: 310px;
+  height: 42px;
+  margin-bottom: 25px;
+}
+
+.card a {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16.5px;
+}
+
+.services {
+  background: #fafafa;
+  padding-top: 92px;
+  margin-bottom: 100px;
+}
+
+.section_title {
+  width: 682px;
+  height: 123px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto 54px;
+}
+
+.section_title h4 {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 52.73px;
+  margin-bottom: 19px;
+}
+
+.section_title p {
+  color: #666;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.cards_list2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.card_l2 {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.services_shadow {
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.element {
+  padding: 0px 30px 50px;
+}
+
+.card_l2 h4 {
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  margin-bottom: 22px;
+}
+
+.card_l2 p {
+  color: #aaa;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  margin-bottom: 39px;
 }
