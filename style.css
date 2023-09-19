@@ -135,7 +135,6 @@ footer {
   align-items: start;
   flex-direction: column;
   text-align: left;
-  /* gap: 25px; */
   padding: 40px 30px 25px 30px;
 }
 
@@ -174,7 +173,7 @@ footer {
 .services {
   background: #fafafa;
   padding-top: 92px;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .section_title {
